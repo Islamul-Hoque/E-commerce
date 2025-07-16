@@ -45,9 +45,9 @@
 nav{
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 2rem 0;
-    margin: auto;
+    margin:0 2.1rem;
     max-width: 1280px;
 }
 
@@ -318,56 +318,44 @@ form ::placeholder{
 
 
 
+/* CSS Breakpoints for Smartphone Screen(540 px) */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* CSS Breakpoints for Smartphone Screens */
-
-@media screen and (max-width:480px){
+@media screen and (max-width:540px){
     
     nav{
-        justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
         padding: 1rem 0;
-        max-width: 85vw;
+        max-width: 100vw;
     }
 
     .nav-img img{
-        width: 6.5rem;
+        max-width: 100%;
         height: 1.4rem;
     }
 
     .nav-search input{
-    width: 10rem;
+    max-width: 14.5rem;
     /* height: 1.8rem; */
     margin: 0 0.5rem;
     }
     
     .nav-link{
-        margin: 1rem 0 0 0.5rem;
+        /* gap: 4rem; */
+        margin: 0.8rem 0 0.1rem;
+        width: 100%;
     }
 
     .nav-link li a{
-    font-size: 0.8rem;
+    text-align: center;
+    font-size: 0.9rem;
     }
 
     .product-name .product-list{
     top: 50%;
     left: -15px;
     padding: 0.1rem 0.3rem;
-    width: 4rem;
+    width: 5rem;
 }
 
 .product-name .product-list li{
@@ -377,34 +365,37 @@ form ::placeholder{
 /* Banner */
 
 .banner{
+    text-align: center;
+    justify-content: center;
     flex-wrap: wrap-reverse;
     padding:1rem;
     gap: 0;
-    border-radius: 0.8rem;
+    border-radius: 0.5rem;
 }
 
 .banner h1{
-    font-size: 28px;
+    font-size: 2.2rem;
 }
 
 .banner p{
-    font-size: 12px;
-    max-width: 300px;
+    font-size: 0.8rem;
+    max-width: auto;
 }
 
 .banner span{
-    font-size: 25px;
+    font-size: 2rem;
 }
 
 .banner button{
-    font-size: 13px;
-    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
     border-radius: 0.5rem;
 }
 
 .banner img{
+    margin: ;
     width: 70vw;
-    height: 28vh;
+    height: 15rem;
 }
 
 /* Categories */
