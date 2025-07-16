@@ -315,3 +315,168 @@ form ::placeholder{
     border-radius: 0.7rem;
     width: 35%;
 }
+
+
+/* CSS Breakpoints for Smartphone Screens */
+
+@media screen and (max-width:350px){
+    
+    nav{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 1rem 0;
+        max-width: 85vw;
+    }
+
+    .nav-img img{
+        width: 6.5rem;
+        height: 1.4rem;
+    }
+
+    .nav-search input{
+    width: 10rem;
+    /* height: 1.8rem; */
+    margin: 0 0.5rem;
+    }
+    
+    .nav-link{
+        margin: 1rem 0 0 0.5rem;
+    }
+
+    .nav-link li a{
+    font-size: 0.8rem;
+    }
+
+    .product-name .product-list{
+    top: 50%;
+    left: -15px;
+    padding: 0.1rem 0.3rem;
+    width: 4rem;
+}
+
+.product-name .product-list li{
+    margin: 0.3rem 0;
+}
+
+/* Banner */
+
+.banner{
+    flex-wrap: wrap-reverse;
+    padding:1rem;
+    gap: 0;
+    border-radius: 0.8rem;
+}
+
+.banner h1{
+    font-size: 28px;
+}
+
+.banner p{
+    font-size: 12px;
+    max-width: 300px;
+}
+
+.banner span{
+    font-size: 25px;
+}
+
+.banner button{
+    font-size: 13px;
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.banner img{
+    width: 70vw;
+    height: 28vh;
+}
+
+/* Categories */
+.categories{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.8rem;
+    margin: 1rem 2rem;
+}
+
+.categories-description{
+    border-radius: 0.5rem;
+    height: 10.2rem;
+}
+
+/* Mobile, Shoes ,Backpack */
+
+.product-card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.product-content{
+    border-radius: 0.6rem;
+}
+
+.product-content img{
+    width: 60vw;
+    height: auto;
+} 
+
+.product-content h3{
+    font-size: 1.4rem;
+}
+
+.product-content span{
+    font-size: 1.5rem;
+}
+
+.product-content button{
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+}
+
+/* Footer */
+.footer{
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 3.5rem 1.2rem;
+}
+
+.footer h2{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 0.7rem;
+    margin: 0.5rem 0 0;
+}
+
+.form{
+    width: 100%;
+}
+
+form label{
+    margin: 0.6rem 0 0.2rem;
+    font-size: 0.8rem;
+}
+
+form input, form textarea{
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+}
+
+.footer-btn{
+    gap: 0.6rem;
+    margin: 0.7rem 0;
+}
+
+.footer button{
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+}
