@@ -655,7 +655,7 @@ form input, form textarea{
 
 /* CSS Breakpoints for Smartphone Screen(720 px) */
 
-@media screen and (min-width: 576px) and (max-width: 720px){
+@media screen and (min-width: 576px) and (max-width: 730px){
     
     nav{
         /* background-color: #d37997; */
