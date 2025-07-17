@@ -658,6 +658,8 @@ form input, form textarea{
 }
 
 
+
+
 /* CSS Breakpoints for Smartphone Screen(720 px) */
 
 @media screen and (min-width: 576px) and (max-width: 730px){
@@ -667,7 +669,7 @@ form input, form textarea{
         flex-wrap: wrap;
         align-items: center;
         padding: 1rem 0;
-        max-width: 85%;
+        /* max-width: 100%; */
     }
 
     .nav-img img{
